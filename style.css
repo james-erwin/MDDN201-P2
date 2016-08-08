@@ -4,6 +4,8 @@ ul {
     padding: 0px;
     overflow:hidden;
     background-color: #FFFFFF;
+    text-decoration: none;
+
 
 }
 
@@ -19,6 +21,12 @@ nav{
 li {
     float: right;
     margin-top: 0px;
+    text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+
 }
 
 li a {
@@ -29,6 +37,7 @@ li a {
     margin-top: 6px;
     padding: 14px 10px;
     text-decoration: none;
+    color: #000000;
 
 }
 
@@ -43,4 +52,15 @@ ul img {
 .jumbotron {
    min-height: 1000px;
 background-size: cover;
+}
+
+.container p{
+  justify-content: center;
+  width: 50%;
+  font-size: 20pt;
+  font-family: Roboto; 
+  text-align: center;
+  margin-top: 225px;
+  margin-left: auto;
+  margin-right: auto;
 }
