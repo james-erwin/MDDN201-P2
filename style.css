@@ -1,23 +1,24 @@
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    margin: 10px;
+    padding: 0px;
+    overflow:hidden;
     background-color: #FFFFFF;
+
 }
 
 nav{
-  position: fixed;
+  position: relative;;
   top: 0;
   left: 0;
   z-index: 100;
   width: 100%;
-  height: 75px;
-  background-color: transparent;
+
 }
 
 li {
     float: right;
+    margin-top: 0px;
 }
 
 li a {
@@ -25,14 +26,18 @@ li a {
     color: black;
     font-family: Merriweather;
     text-align: center;
-    padding: 14px 16px;
+    margin-top: 6px;
+    padding: 14px 10px;
     text-decoration: none;
+
 }
 
-li img {
+ul img {
   width: 100px;
   height: 30px;
-  display: block;
+  margin-top: 17px;
+  margin-left: 8px;
+
 }
 
 .jumbotron {
