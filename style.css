@@ -10,12 +10,11 @@ ul {
 }
 
 nav{
-  position: relative;;
+  position: relative;
   top: 0;
   left: 0;
   z-index: 100;
   width: 100%;
-
 }
 
 li {
@@ -32,13 +31,17 @@ a:hover {
 li a {
     display: block;
     color: black;
-    font-family: Merriweather;
-    text-align: center;
+    font-family: 'Merriweather', sans-serif;    text-align: center;
     margin-top: 6px;
     padding: 14px 10px;
     text-decoration: none;
     color: #000000;
 
+}
+
+li a:hover{
+  text-decoration: none;
+  color: purple;
 }
 
 ul img {
@@ -52,13 +55,15 @@ ul img {
 .jumbotron {
    min-height: 1000px;
 background-size: cover;
+background-image: url(images/2.jpg);
+
 }
 
 .container p{
   justify-content: center;
-  width: 50%;
+  width: 40%;
   font-size: 20pt;
-  font-family: Roboto; 
+  font-family: Roboto;
   text-align: center;
   margin-top: 225px;
   margin-left: auto;
