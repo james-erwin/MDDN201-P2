@@ -53,7 +53,7 @@ ul img {
 }
 
 .jumbotron {
-   min-height: 1000px;
+   min-height: 800px;
 background-size: cover;
 background-image: url(images/2.jpg);
 
@@ -61,8 +61,7 @@ background-image: url(images/2.jpg);
 
 .container p{
   justify-content: center;
-  width: 40%;
-  font-size: 20pt;
+  width: 50%;
   font-family: Roboto;
   text-align: center;
   margin-top: 225px;
