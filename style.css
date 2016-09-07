@@ -1,39 +1,10 @@
-ul {
-    list-style-type: none;
-    margin: 10px;
-    padding: 0px;
-    overflow:hidden;
-    background-color: #FFFFFF;
-    text-decoration: none;
-
-
-}
-
-nav{
-  position: relative;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  width: 100%;
-}
-
-li {
-    float: right;
-    margin-top: 0px;
-    text-decoration: none;
-}
-
 a:hover {
   text-decoration: none;
 
 }
-
 li a {
-    display: block;
     color: black;
     font-family: 'Merriweather', sans-serif;    text-align: center;
-    margin-top: 6px;
-    padding: 14px 10px;
     text-decoration: none;
     color: #000000;
 
@@ -41,30 +12,91 @@ li a {
 
 li a:hover{
   text-decoration: none;
-  color: purple;
+  color: grey;
 }
 
-ul img {
-  width: 100px;
-  height: 30px;
-  margin-top: 17px;
-  margin-left: 8px;
+
+/*nav bar*/
+
+header {
+  background: #fff;
+  padding: 10px 0;
+}
+header .navbar {
+  margin-bottom: 0px;
+  border: 0px;
 
 }
+header .navbar-brand {
+  padding-top: 23px;
+  padding-left: 50px;
+}
+header .navbar-default {
+  background: none;
+  border: 0px;
+}
+header .navbar-default .navbar-nav {
+  padding-top: 25px;
+}
+header .navbar-default .navbar-nav li a {
+  color: #333333;
+  padding: 7px 26px;
+  font-size: 15px;
+}
+font header .navbar-default .navbar-nav li a:hover {
+  color: #b1b1b1;
+}
+body { padding-top: 70px; }
 
-.jumbotron {
-   min-height: 800px;
-background-size: cover;
-background-image: url(images/2.jpg);
 
+
+.carousel {
+    height: 700px;
+    margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+ .carousel-caption {
+    z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+ .carousel .item {
+    width: 100%;
+    height: 700px;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 700px;
+}
+@media (min-width: 768px) {
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
 }
 
-.container p{
-  justify-content: center;
-  width: 50%;
-  font-family: Roboto;
-  text-align: center;
-  margin-top: 225px;
+.container h1{
+  font-family: "Times New Roman", Times, serif;
+
+}
+.form-group > textarea {
+  margin-top: 20px;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+
+
+.container p{
+  text-align: left;
+  color: black;
+  font-family: 'Merriweather', sans-serif;
+  text-decoration: none;
+  color: #000000;
 }
